@@ -305,27 +305,6 @@ Description: Syncs icon badge values when notifications are dismissed from the n
 Author: newwares
 Name: BadgeSync
 
-Package: com.nightwind.onesettings
-Version: 2.2
-Architecture: iphoneos-arm64
-Maintainer: Nightwind <nightwinddev@gmail.com>
-Installed-Size: 1084
-Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
-Conflicts: com.creaturecoding.shuffle
-Replaces: com.twickd.nightwind.onesettings
-Filename: ./debs/OneSettings.2.2.deb
-Size: 207632
-MD5sum: d33696349c368d789e92d79ad688fbdf
-SHA1: b01c5087fa6adec8d1bc1c9be5b99848052b490b
-SHA256: 80dde40a2d23ec8c4911b368fc4c7cd2a2ce27f7e559091001a6b161a57b026c
-Section: Tweaks
-Description: A great enhancement to your Settings App!
-Tag: cydia::commercial, compatible_min::ios14.0
-Author: Nightwind <nightwinddev@gmail.com>
-Depiction: https://chariz.com/buy/onesettings
-Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
-Name: OneSettings
-
 Package: com.opa334.altlist
 Version: 1.0.11
 Architecture: iphoneos-arm64
