@@ -51,6 +51,22 @@ Description: 左滑返回上一页面
 Author: Mao
 Name: 左滑返回-Rootless
 
+Package: com.34306.replaced
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Little 34306
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/replaced.1.0.deb
+Size: 3200
+MD5sum: 53d10a41d59dd19c3fb34ead0406f99b
+SHA1: 64ad0d9c1d8ad86cec48bc2160daa5778a41c3df
+SHA256: dd95327ac294315ef12adde23b5ac10eec77a4c1cadacb180eb3b77e874a3fbb
+Section: Tweaks
+Description: Remove the notification that the P
+Author: 34306
+Name: replaced
+
 Package: com.be-huge.floating-view
 Version: 1.4.2
 Architecture: iphoneos-arm64
@@ -133,6 +149,21 @@ Description: Choicy 简体中文包(rootless)。
 Author: 妖刀
 Name: Choicy 简体中文包(rootless)
 
+Package: com.hk.onesettings.cn.rl
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/OneSettings简体中文包rootless.2.1.1.deb
+Size: 12112
+MD5sum: 2d64a673ffd6c2a9b3bc0869858dc050
+SHA1: 441ff9781c5c1bc79781768e21ea2b9dacdf083e
+SHA256: dbb8637f49bd86ae2f201dde7910eae7a474498959da549e5e267a431b24c0b6
+Section: 嗨-汉化
+Description: OneSettings 简体中文包(rootless)。
+Author: 妖刀
+Name: OneSettings 简体中文包(rootless)
+
 Package: com.lclrc.hammerit
 Version: 1.7.1
 Architecture: iphoneos-arm64
@@ -165,6 +196,22 @@ Section: Tweaks
 Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamine，感谢原作者提供的思路。
 Author: Muirey03 & lclrc
 Name: 锁屏录屏RecordAnywhere
+
+Package: com.netskao.dumpdecrypter
+Version: 1.4-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 4324
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/DumpDecrypter.1.4-4.deb
+Size: 1295044
+MD5sum: b5e71b65b924ea0bca0c0994f2911663
+SHA1: 580156780fceb0da2c2136a72aa6355099bd84c1
+SHA256: acf8167d30c1ca679d95e6cc3294441ef39d369a01e7d0eece8f256de691a9f7
+Section: Netskao-Tweaks
+Description: Decrypt iOS Apps and Plugins
+Author: Netskao
+Name: DumpDecrypter
 
 Package: com.newwares.badgesync
 Version: 1.2.2
@@ -246,6 +293,28 @@ Author: opa334 <opa334@protonmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Dev: opa334
 Name: CCSupport
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.opa334.choicy
+Version: 1.4.10-3
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 814
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/Choicy.1.4.10-3.deb
+Size: 104868
+MD5sum: f24de7458111aaa48c381f4190633883
+SHA1: 4532c8d8ae8a5f2f93d6d70dbcb7655078cf8978
+SHA256: 0e9c63c84924930751e21eae3723ad56aebd2b6ed5f8dc8781871a8c5165c181
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Description: Advanced Tweak Configuration!
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Dev: opa334
+Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
+Name: Choicy
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.libsandy
@@ -416,6 +485,26 @@ Author: zqbb
 Name: Hello Snapper
 Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
 
+Package: dev.theos.orion14
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Theos Team <support@theos.dev>
+Installed-Size: 514
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.2)
+Filename: ./debs/OrionRuntimeiOS14–17.1.0.2.deb
+Size: 93468
+MD5sum: 029756c74cce80c821a51af385caf166
+SHA1: d2669095f0c195cfd56c68a149e8866427fe8c86
+SHA256: c18b346407156cff33f71c30201e666492a9feb16a989a92ff622a5d317c21d8
+Section: System
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios14.0
+Author: Theos Team <support@theos.dev>
+Depiction: https://chariz.com/get/orion-runtime14
+Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
+Name: Orion Runtime (iOS 14 – 17)
+
 Package: gzip
 Version: 1.13
 Architecture: iphoneos-arm64
@@ -433,6 +522,22 @@ Multi-Arch: foreign
 Homepage: http://www.gzip.org/
 Description: GNU compression utilities
 Name: gzip
+
+Package: netskao.appdata-rootless
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 23032
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/AppData-Rootless.1.4.1.deb
+Size: 5069796
+MD5sum: 1bb2d27f60a9e1504f1cb236c0bdab30
+SHA1: fb524934090772446860f2175cce1275f918703a
+SHA256: 7bf1d559271ab0bf7705b458477e992ed5caa807088ea04fb73a9610bfb1ee7c
+Section: Netskao-Tweaks
+Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
+Author: Fouad Raheb
+Name: AppData-Rootless
 
 Package: netskao.cccellularrate-rootless
 Version: 1.1-1
