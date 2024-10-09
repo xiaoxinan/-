@@ -83,22 +83,6 @@ Description: Remove the notification that the P
 Author: 34306
 Name: replaced
 
-Package: com.be-huge.floating-view
-Version: 1.4.2
-Architecture: iphoneos-arm64
-Maintainer: be-huge
-Installed-Size: 2268
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.floating-view_1.4.2_iphoneos-arm64.deb
-Size: 745684
-MD5sum: 67cc4ec0d8523fd1f70427d729ef9a06
-SHA1: df7cd316f5e4f77cc9bc398546edd7f16164b415
-SHA256: ce428847c95e53bd9197976b87303fcdc3e6247448bf30168a7a5dcba8156627
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: be-huge
-Name: floatingView
-
 Package: com.creaturecoding.libcspreferences
 Version: 1.5.8
 Architecture: iphoneos-arm64
@@ -534,23 +518,6 @@ Section: Tweaks
 Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
 Author: sunshinesong
 Name: native-island-notifier
-
-Package: com.sunshinesong.split-view-pro
-Version: 1.4.0
-Architecture: iphoneos-arm64
-Maintainer: sunshinesong
-Installed-Size: 5484
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
-Filename: ./debs/com.sunshinesong.split-view-pro_1.4.0_iphoneos-arm64.deb
-Size: 2310454
-MD5sum: 8e6e00e09a29f9ab2a44a0b2a28324a4
-SHA1: f03e0b4dbcdaf1df32ae16d5f35d4087c3fa0f89
-SHA256: ac181f883a45053674b2ee0c5d6b33d5e8ff3218623aa188339ed88cf003b88f
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: sunshinesong
-Name: split-view-pro
-Ts: sp-sss
 
 Package: com.tigisoftware.filza64bit
 Version: 4.0.1-4
