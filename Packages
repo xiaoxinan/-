@@ -1,3 +1,38 @@
+Package: byg.iosios.net.singlemutes
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.82flex.singlemute
+Filename: ./debs/SingleMute静音图标-Rootless.1.4.deb
+Size: 23896
+MD5sum: d8a71913d4a20c9b8848018aca1d8e93
+SHA1: 7b9bf33aab1a469747af07b975df8f0008c2ff94
+SHA256: 82f83cb27ea4ccc9d54df61ed2fb9860d7cc78ad3f4916af17242c2774b08642
+Section: 杂七杂八
+Description: 听说这是一位越狱爱好者自费500元定制的插件，感谢其无私奉献，插件作用是在状态栏左上角显示静音图标，如截图所示，有需要的小伙伴也可以下载试试看，是否物超所值！
+Author: 82Flex
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Single Mute静音图标-Rootless
+Sponsor: 搬运工
+
+Package: com.25mao.leftpan.rootless
+Version: 1.0-6
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/左滑返回-Rootless.1.0-6.deb
+Size: 44224
+MD5sum: dbe24cc2e025f9f461717ad450ed99ad
+SHA1: 7bf575b5c15e8b52d4391b2189493b59ff354dd1
+SHA256: b6d8cdaba855d0305f70ceb3294e04c59d34d6bca2e10f991d5c18df78ec683c
+Section: Rootless
+Priority: optional
+Description: 左滑返回上一页面
+Author: Mao
+Name: 左滑返回-Rootless
+
 Package: com.be-huge.floating-view
 Version: 1.4.2
 Architecture: iphoneos-arm64
@@ -13,6 +48,26 @@ Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
+
+Package: com.exile90.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/iCleanerPro.7.10.0.deb
+Size: 980548
+MD5sum: a236dc13dd61150d36f7c058dce8e975
+SHA1: 42aa32054e81833064372c4931927cc1f1dfd65a
+SHA256: 8000905841e31cb431bad0bed69b9e34ccc3529b46bc25cd5604c240db992178
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
 
 Package: com.hk.choicy.cn.rl
 Version: 1.4.6
