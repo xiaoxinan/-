@@ -14,3 +14,19 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: com.sunshinesong.native-island
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 908
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), org.thebigboss.libcolorpicker
+Filename: ./debs/native-island-notifier_1.0.3_iphoneos-arm64.deb
+Size: 151828
+MD5sum: 9ce3985aa947d1a6d609006b1eb6e295
+SHA1: d7b1b22dd38e44a795825bc21b749e4fee2f3991
+SHA256: c92bd15a8be3539ab31a4a36954ceea9d3247c234d23837841c09810bef3323b
+Section: Tweaks
+Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
+Author: sunshinesong
+Name: native-island-notifier
+
