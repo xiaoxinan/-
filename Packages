@@ -213,6 +213,23 @@ Description: Decrypt iOS Apps and Plugins
 Author: Netskao
 Name: DumpDecrypter
 
+Package: com.netskao.filzacrack
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 88
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
+Filename: ./debs/FilzaCrack.1.1-8.deb
+Size: 4952
+MD5sum: 402637e9d30c62802d9357f82c7c2d50
+SHA1: 0056d4d1de63d311dab20e3fd4cd2e20b2913718
+SHA256: 424d017f6a66f9b76cf8cab4b106f2f5148ef899d9c721ce2efc77de9bb663f5
+Section: Netskao-Tweaks
+Homepage: https://tigisoftware.com/cydia/
+Description: Filza unlock full functionality, the main program please install in the official source
+Author: Netskao
+Name: Filza Crack
+
 Package: com.newwares.badgesync
 Version: 1.2.2
 Architecture: iphoneos-arm64
