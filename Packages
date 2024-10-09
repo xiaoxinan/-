@@ -1,3 +1,19 @@
+Package: aodmin.cn.monitor
+Version: 0.0.9
+Architecture: iphoneos-arm64
+Maintainer: admin
+Installed-Size: 236
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/aodmin.cn.monitor_0.0.9_iphoneos-arm64.deb
+Size: 43732
+MD5sum: 1c5810b1f397d7b8f46a767cd560d88e
+SHA1: fa5aa56eda1d399ff2c4839d18808292a250926a
+SHA256: 46698a65d859080c3570051e7c52f27f403bf3aedb65fbd6dbd1f772224148ce
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: aodmin
+Name: DeviceMonitor
+
 Package: byg.iosios.net.singlemutes
 Version: 1.4
 Architecture: iphoneos-arm64
@@ -157,6 +173,23 @@ Section: 嗨-汉化
 Description: SafariX 简体中文包(rootless)。
 Author: 妖刀
 Name: SafariX 简体中文包(rootless)
+
+Package: com.eliassfeir.smartnetwork
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: elias
+Installed-Size: 1272
+Depends: mobilesubstrate, com.spark.libsparkapplist, ws.hbang.common
+Conflicts: com.eliassfeir.smartnetwork
+Filename: ./debs/SmartNetwork iOS 15-16_1.1_iphoneos-arm64.deb
+Size: 160164
+MD5sum: 4bd4f8c47315ce7bc4a0c83a58042006
+SHA1: 539d3a073673826b54140d1477d4e55e60220c07
+SHA256: b3ec50079a2f4c3826b6a70b43db9ef57f2c6d2f93b251438d4ef58ec04c7b30
+Section: Tweaks
+Description: The most complete tweak to customize WiFi / mobile data and Bluetooth
+Author: elias
+Name: SmartNetwork iOS 15-16
 
 Package: com.exile90.icleanerpro
 Version: 7.10.0
@@ -410,6 +443,21 @@ Section: Tweaks
 Description: 在ipad上任意应用强制全屏/强制竖横屏
 Author: PoomSmart
 Name: AppPad平板应用强制全屏/竖横屏
+
+Package: com.shadow.fuckthermal
+Version: 1.2-38
+Architecture: iphoneos-arm64
+Maintainer: Shadow-
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader (>= 2.2.3)
+Filename: ./debs/com.shadow.fuckthermal_1.2-38_iphoneos-arm64.deb
+Size: 216324
+MD5sum: 7e004b8ca7410ba1e0475770b3985034
+SHA1: 37f12b0bba7f0834ce6eae71662a12fa56ee125f
+SHA256: 91965ed2d82a6c3803f947bbdf14101acb81515cd2f5c49f102bf186f8a4434f
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Shadow-
+Name: fuckthermal
 
 Package: com.skypain.ccautobrightness
 Version: 1.0.0-1
