@@ -83,6 +83,50 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: com.creaturecoding.libcspreferences
+Version: 1.5.8
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 2332
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: ./debs/libCSPreferences.1.5.8.deb
+Size: 334348
+MD5sum: 119e8917e10f23a049c5168a6be876ed
+SHA1: ff7198c6ab1424d0073d237683d952581050a358
+SHA256: fdc15216e67e7aad37b67a94d5b249eee676d5322b06e5caa9afb60f2833532d
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A Preference Library that doesn't suck!
+Tag: compatible_min::iOS9
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+Name: libCSPreferences
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+
+Package: com.creaturecoding.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debs/Shuffle.1.6.2.deb
+Size: 253940
+MD5sum: efb050ff7c036aedd30f31f4954253e0
+SHA1: 9593f0f135f38326a48ffb48bf226bd98b6d6eda
+SHA256: 4da00fa95a942b9fa932cc0109f54502c82e2e05e7e3ed48971eb32e74d922b9
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: Shuffle
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+
 Package: com.dao.safarix
 Version: 1.3.0
 Architecture: iphoneos-arm64
@@ -163,6 +207,21 @@ Section: 嗨-汉化
 Description: OneSettings 简体中文包(rootless)。
 Author: 妖刀
 Name: OneSettings 简体中文包(rootless)
+
+Package: com.hk.shuffle.cn.rl
+Version: 1.6.2-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: ./debs/Shuffle简体中文包rootless.1.6.2-1.deb
+Size: 10800
+MD5sum: dee3b699f796ef529bbfea819a3cf1a2
+SHA1: c1c5b573d26dcffacb95b06501c5f993af42c32e
+SHA256: 6ae77ca20de2589a0cedaea1c394d247225ba231d0cd7ea7c67e291f2122cd9f
+Section: 嗨-汉化
+Description: Shuffle 简体中文包(rootless)。
+Author: 妖刀
+Name: Shuffle 简体中文包(rootless)
 
 Package: com.lclrc.hammerit
 Version: 1.7.1
