@@ -158,6 +158,22 @@ Description: SafariX 简体中文包(rootless)。
 Author: 妖刀
 Name: SafariX 简体中文包(rootless)
 
+Package: com.dao.storeswitchaccounts
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.storeswitchaccounts, netskao.storeswitchaccounts-rootless
+Filename: ./debs/com.dao.storeswitchaccounts_1.1-4_iphoneos-arm64.deb
+Size: 102592
+MD5sum: 2510dfd66e2afbb5c48f67a543daef60
+SHA1: 079692832399b91e09fda2cbfd73971070c02e13
+SHA256: 82ff94bffcfcd43a6ececc69f53cd8ab6c5f4456a4998f026f1c91d0eab1c486
+Section: 嗨-工具
+Description: 长按桌面AppStore图标即可切换登录过的AppleID。Netskao新更的版本，上架备份。
+Author: Netskao
+Name: StoreSwitchAccounts(rootless)
+
 Package: com.eliassfeir.smartnetwork
 Version: 1.1
 Architecture: iphoneos-arm64
