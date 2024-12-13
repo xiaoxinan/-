@@ -33,6 +33,23 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: Single Mute静音图标-Rootless
 Sponsor: 搬运工
 
+Package: cn.Bswbw.fixset
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: gblw
+Installed-Size: 123
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/cn.bswbw.fixset.deb
+Size: 50594
+MD5sum: 8ab4359da295ccf5b7f0769a36064660
+SHA1: a824ae98ddf9373fb32cc055dc08001bf11cd570
+SHA256: b8331be065178735c0a66d4c1f8c320ceece2b8dac9c714102f593d7995d7e93
+Description: 修复部分插件转roothide配置不保存问题
+Author: @bswbw
+Depiction: https://repo.lenglengyu.top/packageInfo/fixset.html
+Name: FixSet
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/fixsetsileo
+
 Package: cn.zqbb.disupdateapp
 Version: 1.0-2
 Architecture: iphoneos-arm64
@@ -44,6 +61,24 @@ Size: 125444
 MD5sum: 890d26959f5835d2fa326a4273a4b4a9
 SHA1: 535c3870cd325d9bd996bd56adafd36a7d6652f4
 SHA256: 254b54e0e8ceaad517e16fccd68be0b465d2abad8f8bac96e2cfdb922bc587c3
+Section: Tweaks
+Description: 屏蔽App Store更新提示(Block App Store Updates)!
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
+Name: Hello App
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
+
+Package: cn.zqbb.disupdateapp
+Version: 2.0.0-3
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 788
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/cn.zqbb.disupdateapp_2.0.0-3_iphoneos-arm64.deb
+Size: 206934
+MD5sum: 38fcbd9a68acc15f0776592fe1e73b3a
+SHA1: 56056b1ab2ef739fcd45da1c241983477efbc180
+SHA256: 733e8dc67609fc2e2bf062f0f476bda40bc4d52f4d00b2686537cab919a179b3
 Section: Tweaks
 Description: 屏蔽App Store更新提示(Block App Store Updates)!
 Author: zqbb
