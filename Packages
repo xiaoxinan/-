@@ -86,6 +86,21 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
 Name: Hello App
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
+Package: com.0xkuj.safarix
+Version: 1.9.2
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/SafariX-New(rootless)_1.9.2.deb
+Size: 287248
+MD5sum: e2de44eaa73bbabd48e63fa53852e583
+SHA1: 370f353affca373d948e35e57ec1bb7e0c64387d
+SHA256: eab727d5676115c8680d72390eeb2d07ba2b76d2c5ce45cef4fa8fb841fb03e8
+Section: 嗨-工具
+Description: Safari 浏览器多功能增强插件；源内有汉化包；SafariX后期加了验证，不能改包名。
+Author: 0xkuj
+Name: SafariX-New(rootless)
+
 Package: com.25mao.leftpan.rootless
 Version: 1.0-6
 Architecture: iphoneos-arm64
@@ -161,6 +176,21 @@ Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: Shuffle
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+
+Package: com.dao.safarix.cn
+Version: 1.9.2
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/SafariX_CN.deb
+Size: 8600
+MD5sum: 27530f423765a80ae0678c4fee2d2a8a
+SHA1: 2fa4ebc48c645d1d4b52831666305351572e9d0b
+SHA256: ad94efc72ce761e408c55c78a5f4210d4b8034d36bb3dc66e37eb50dd45d5ea9
+Section: 嗨-汉化
+Description: SafariX 简体中文包。
+Author: 妖刀
+Name: SafariX 简体中文包
 
 Package: com.dao.storeswitchaccounts
 Version: 1.1-4
