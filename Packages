@@ -14,6 +14,42 @@ Description: An awesome MobileSubstrate tweak!
 Author: aodmin
 Name: DeviceMonitor
 
+Package: byg.iosios.net.photos.rootless
+Version: 0.0.6-2
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/相册增强-Rootless.0.0.6-2.deb
+Size: 4192
+MD5sum: 4cd5774b1b2c89f5ba08247af952b424
+SHA1: d29f70ae1990adceeecc540ddb55dd3f891e6e1f
+SHA256: 0a3d5a42ab0e41fee0765436570dd9c5ad4319f8b85d2a79c48113cd2550bb56
+Section: 自研插件
+Description: 去除人物地点，去除个人收藏，去除媒体类型，去除底部搜索和为你推荐，去除浏览照片时下方的横幅，开启全选，显示相册封面，删除照片无需确认，屏蔽第三方App文件夹仅保留最近项目。
+Author: iOSign
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 相册增强-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.tapticboard
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 396
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/TapticBoard键盘震动-Rootless.1.2.deb
+Size: 23592
+MD5sum: 62e9c89a2fffe4df3809e0805f3a04bc
+SHA1: 532d0d2c42e2457978a7a5796575d60242dfe1b8
+SHA256: c25a49a67183b669c6521f11d28da2d8a8d0a797c2f2a00a5a253c2abbabf6b1
+Section: 系统增强
+Description: Taptic keyboard without any lag!原生键盘添加震动反馈，应锋友要求，所以上架！搬运工源已汉化完整，冲冲冲，搬运工源，搬你所想！
+Author: P2KDev
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: TapticBoard键盘震动-Rootless
+Sponsor: 搬运工
+
 Package: cn.Bswbw.fixset
 Version: 1.1
 Architecture: iphoneos-arm64e
@@ -60,6 +96,24 @@ Size: 206934
 MD5sum: 38fcbd9a68acc15f0776592fe1e73b3a
 SHA1: 56056b1ab2ef739fcd45da1c241983477efbc180
 SHA256: 733e8dc67609fc2e2bf062f0f476bda40bc4d52f4d00b2686537cab919a179b3
+Section: Tweaks
+Description: 屏蔽App Store更新提示(Block App Store Updates)!
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
+Name: Hello App
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
+
+Package: cn.zqbb.disupdateapp
+Version: 2.0.0-5
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 804
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/HelloApp.2.0.0-5.deb
+Size: 197540
+MD5sum: 65b995f068c557a431763ff83a34329e
+SHA1: f1e8a28b02a68b058245b415cfbd364acd5e3351
+SHA256: 13ad4e3f93fa6ed5708ec55775ac9c4450345275778ca7f132e6654a5ac9de9b
 Section: Tweaks
 Description: 屏蔽App Store更新提示(Block App Store Updates)!
 Author: zqbb
@@ -157,6 +211,29 @@ Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: Shuffle
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+
+Package: com.cydiageek.hapticsleep
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 515
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Filename: ./debs/HapticSleep.1.0.2.deb
+Size: 55112
+MD5sum: 46dc8fdbc32ceab1fe36a7019a4787ee
+SHA1: 66d69aaa066f6b1bd5e0d5282af75adc99f52a98
+SHA256: f6d2e84be9e56899e0e6ecc5d6108d0ed74d3e90eaaae1949f0af43a67069ec2
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hapticsleepDp
+Description: Haptics When Locking the Device!
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hapticsleepDp
+Dev: lucaluca86
+Icon: file:///var/jb/Library/PreferenceBundles/HapticSleep.bundle/HapticSleep@2x.png
+Name: HapticSleep
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.dao.safarix.cn
 Version: 1.9.2
