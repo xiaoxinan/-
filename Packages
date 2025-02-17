@@ -68,24 +68,6 @@ Name: FixSet
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/fixsetsileo
 
 Package: cn.zqbb.disupdateapp
-Version: 1.0-2
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 740
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: ./debs/HelloApp.1.0-2.deb
-Size: 125444
-MD5sum: 890d26959f5835d2fa326a4273a4b4a9
-SHA1: 535c3870cd325d9bd996bd56adafd36a7d6652f4
-SHA256: 254b54e0e8ceaad517e16fccd68be0b465d2abad8f8bac96e2cfdb922bc587c3
-Section: Tweaks
-Description: 屏蔽App Store更新提示(Block App Store Updates)!
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
-Name: Hello App
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
-
-Package: cn.zqbb.disupdateapp
 Version: 2.0.0-3
 Architecture: iphoneos-arm64
 Maintainer: zqbb
@@ -908,21 +890,4 @@ Description: Process Viewer for iOS GUI,适配rootless并增加一些小功能.
 Author: Domo, SXX , zp
 Name: CocoaTop64.zp
 Sileodepiction: https://rootless.002599.xyz/web/zp.cocoatop64.unject
-
-Package: zp.stopautolaunchapps
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/Hello3Q.1.0.2.deb
-Size: 3152
-MD5sum: 4674546595396290fe50fe6f1125c69a
-SHA1: 7c1afe32b1cccef051a9156b6d23f0d149d02e9d
-SHA256: 8cfcc93e7403cfc290f8f82e8a384c8c4e8e9e9df939254b15e3e775a0b3d979
-Section: Tweaks
-Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯!
-Author: zqbb
-Name: Hello 3Q
-Sileodepiction: https://rootless.002599.xyz/web/zp.stopautolaunchapps
 
