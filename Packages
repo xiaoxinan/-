@@ -49,6 +49,24 @@ Depiction: https://repo.lenglengyu.top/packageInfo/fixset.html
 Name: FixSet
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/fixsetsileo
 
+Package: cn.zqbb.appdata
+Version: 1.3.6-9
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 356
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.fouadraheb.appdata, netskao.appdata-rootless
+Filename: ./debs/HelloAppData.1.3.6-9.deb
+Size: 76944
+MD5sum: 8d781c1cfcc31a815213b41720604294
+SHA1: 24feab2f9ff3fae956d75f21e8da85e34122227f
+SHA256: d995e366561cc69bd1e559e6a5f86827648635b5e5e9714d4de56ab1a9903c1c
+Section: Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb <support@fouadraheb.com>
+Name: Hello AppData
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.appdata
+
 Package: cn.zqbb.disupdateapp
 Version: 2.0.0-3
 Architecture: iphoneos-arm64
@@ -266,6 +284,22 @@ Author: Ivano Bilenchi <support@ib-soft.net>
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
+
+Package: com.fiore.calculatorhistory
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: Donato Fiore & lclrc
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: ./debs/计算器添加历史按钮.1.1.3.deb
+Size: 16576
+MD5sum: 7333e57a3ae701198268818408a180fc
+SHA1: 5880b99568109d5742730ece1e50e712f4c1376c
+SHA256: 54b8d595e17354ba52dba5718be6583a071e281a8445b80defe7975dc6a3ea46
+Section: Tweaks
+Author: Donato Fiore
+Name: 计算器添加历史按钮
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.fiore.calculatorhistory/depiction.json
 
 Package: com.hk.onesettings.cn.rl
 Version: 2.1.1
@@ -572,6 +606,23 @@ Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
 Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
 Name: CCVPN
 Sileodepiction: https://skypain.github.io/repo/src/ccvpn/config/sileo/depiction.json
+
+Package: com.squidforce.snapper3.plugins
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: SquidForce(乌贼力量)
+Installed-Size: 232
+Conflicts: com.lclrc.snapper3.plugins
+Filename: ./debs/PluginsForSnapper3.1.2.deb
+Size: 52752
+MD5sum: 4d244548a714c182260c43350ef8d4ad
+SHA1: 4c6cb6361d7bd0784c5ab35cd0511f5b3824a8d1
+SHA256: c8d6456005b6a66f40ea12bc7a08d64ce8bece8f9dbb9d3f7d75f5e36a37c4b8
+Section: Tweaks
+Description: including iMark and Piiico for now
+Author: SquidForce(乌贼力量)
+Icon: https://s1.imagehub.cc/images/2025/01/01/6649d33bb5c1426f31fa0d05bddce392.png
+Name: Plugins For Snapper3
 
 Package: com.sunshinesong.native-island
 Version: 1.0.3
