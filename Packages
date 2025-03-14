@@ -479,24 +479,6 @@ Dev: opa334
 Name: libSandy
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.p2kdev.tapticboard
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 396
-Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/apt.2.9.4-1.deb
-Size: 1975788
-MD5sum: 3acd29a93dcf1e66acb4756a65a83cdc
-SHA1: 3fde1407fae4956110080632c9446d0e30b87672
-SHA256: df269824c7cb4615a074e2a863d94d97e5b0a8d2f303de1d614346a8715f4064
-Section: 插件
-Description: ios15-16键盘震动的终极调整，敲击键盘或候选词都是震动，
-Author: P2KDev <p2kdev@gmail.com>
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.tapticboard
-Icon: https://s1.imagehub.cc/images/2025/01/22/da95cacf3e9dbdaec0311e6a00989e86.png
-Name: TapticBoard
-
 Package: com.ps.apppad.lans233
 Version: 1.1.3
 Architecture: iphoneos-arm64
@@ -621,6 +603,39 @@ Section: Tweaks
 Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
 Author: sunshinesong
 Name: native-island-notifier
+
+Package: com.sunshinesong.split-view-pro
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 5472
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/com.sunshinesong.split-view-pro_1.4.0_iphoneos-arm64.deb
+Size: 2305616
+MD5sum: cbab402c772d58a69317dd19048af8be
+SHA1: 9937afc7fc7d20b618ad9a5033eaf51148ed5404
+SHA256: f4b1641bc35f6c742a87664b65ec331f520dc741518ef701ea78b85d755899ca
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Name: split-view-pro
+Ts: sp-sss
+
+Package: com.susu.photos
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 苏苏
+Installed-Size: 712
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/apt.2.9.4-1.deb
+Size: 1975376
+MD5sum: 58485fac9bfc62b03b7ce7a965db1029
+SHA1: 2283298003aed8cdc5518087296cd9bb5a5d6568
+SHA256: 80ab5d6b13917be948325d64b66a3cccc0203a2630456f55a44e94e6a7d4735b
+Section: 系统
+Author: 苏苏
+Icon: https://www.susubaby.top/images/photos.png
+Name: 相册增强
 
 Package: com.tigisoftware.filza64bit
 Version: 4.0.1-4
