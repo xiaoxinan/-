@@ -656,22 +656,6 @@ Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.pn
 Name: DockX
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
 
-Package: com.wrp1002.nosettingsbadge
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: Wes <wes.hamster@gmail.com>
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.wrp1002.nosettingsbadge_1.1.0_iphoneos-arm64.deb
-Size: 4386
-MD5sum: eb490f9575dac7396e9ab1a332cb7a30
-SHA1: f3d3baf3ed3a07ce5d1593e5c0a98eb1000ceb1e
-SHA256: beeb3283ed1bf25e445f6e855d9a52ce733a68cf296a58fb488ab9a0870fdb2f
-Section: Tweaks
-Description: Remove settings notification badge!
-Author: Wes <wes.hamster@gmail.com>
-Name: NoSettingsBadge
-
 Package: com.xybp888.noapplemobilerepair
 Version: 0.0.1-88
 Architecture: iphoneos-arm64
