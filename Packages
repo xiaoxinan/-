@@ -678,11 +678,11 @@ Architecture: iphoneos-arm64
 Maintainer: xybp888
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/PluginsForSnapper3.1.2.deb
-Size: 52680
-MD5sum: 811d99ffcfab8494212e01eb5fa16213
-SHA1: b81e9ab281ee6ab066ca887b517ad1f5e058c005
-SHA256: 6bbe0ca9565f863ea3a40161a429bb3fbdfbc9121ef27c96272df306161635f9
+Filename: ./debs/NoAppleMobileRepair.0.0.1-88.deb
+Size: 10548
+MD5sum: 50dbc8af0ba419dec639dbe706637865
+SHA1: de4f933316d5bf56238a065888896e51cab217a6
+SHA256: 0f6679e6fe591ab9c17e1c0c601826a47ae7c5a511a61771ec19ad03e28d10cf
 Section: Tweaks
 Description: No Apple MobileRepair
 Author: xybp888
