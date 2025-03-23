@@ -571,23 +571,6 @@ Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
 Name: CCVPN
 Sileodepiction: https://skypain.github.io/repo/src/ccvpn/config/sileo/depiction.json
 
-Package: com.squidforce.snapper3.plugins
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: SquidForce(乌贼力量)
-Installed-Size: 232
-Conflicts: com.lclrc.snapper3.plugins
-Filename: ./debs/PluginsForSnapper3.1.2.deb
-Size: 52752
-MD5sum: 4d244548a714c182260c43350ef8d4ad
-SHA1: 4c6cb6361d7bd0784c5ab35cd0511f5b3824a8d1
-SHA256: c8d6456005b6a66f40ea12bc7a08d64ce8bece8f9dbb9d3f7d75f5e36a37c4b8
-Section: Tweaks
-Description: including iMark and Piiico for now
-Author: SquidForce(乌贼力量)
-Icon: https://s1.imagehub.cc/images/2025/01/01/6649d33bb5c1426f31fa0d05bddce392.png
-Name: Plugins For Snapper3
-
 Package: com.sunshinesong.native-island
 Version: 1.0.3
 Architecture: iphoneos-arm64
@@ -688,6 +671,24 @@ Section: Tweaks
 Description: Remove settings notification badge!
 Author: Wes <wes.hamster@gmail.com>
 Name: NoSettingsBadge
+
+Package: com.xybp888.noapplemobilerepair
+Version: 0.0.1-88
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/PluginsForSnapper3.1.2.deb
+Size: 52680
+MD5sum: 811d99ffcfab8494212e01eb5fa16213
+SHA1: b81e9ab281ee6ab066ca887b517ad1f5e058c005
+SHA256: 6bbe0ca9565f863ea3a40161a429bb3fbdfbc9121ef27c96272df306161635f9
+Section: Tweaks
+Description: No Apple MobileRepair
+Author: xybp888
+Depiction: https://apt.htv123.com/view/158
+Name: No Apple MobileRepair
+Sileodepiction: https://apt.htv123.com/sileo/158
 
 Package: com.zqbb.savephotos
 Version: 1.1
