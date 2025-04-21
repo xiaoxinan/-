@@ -31,75 +31,6 @@ Depiction: https://repo.lenglengyu.top/packageInfo/fixset.html
 Name: FixSet
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/fixsetsileo
 
-Package: cn.zqbb.appdata
-Version: 1.3.6-9
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 356
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: com.fouadraheb.appdata, netskao.appdata-rootless
-Filename: ./debs/HelloAppData.1.3.6-9.deb
-Size: 76944
-MD5sum: 8d781c1cfcc31a815213b41720604294
-SHA1: 24feab2f9ff3fae956d75f21e8da85e34122227f
-SHA256: d995e366561cc69bd1e559e6a5f86827648635b5e5e9714d4de56ab1a9903c1c
-Section: Tweaks
-Description: View & Manage Applications Data from your Home Screen
-Author: Fouad Raheb <support@fouadraheb.com>
-Name: Hello AppData
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.appdata
-
-Package: cn.zqbb.disupdateapp
-Version: 2.0.0-3
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 788
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: ./debs/cn.zqbb.disupdateapp_2.0.0-3_iphoneos-arm64.deb
-Size: 206934
-MD5sum: 38fcbd9a68acc15f0776592fe1e73b3a
-SHA1: 56056b1ab2ef739fcd45da1c241983477efbc180
-SHA256: 733e8dc67609fc2e2bf062f0f476bda40bc4d52f4d00b2686537cab919a179b3
-Section: Tweaks
-Description: 屏蔽App Store更新提示(Block App Store Updates)!
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
-Name: Hello App
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
-
-Package: cn.zqbb.disupdateapp
-Version: 2.0.0-5
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 804
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: ./debs/HelloApp.2.0.0-5.deb
-Size: 197540
-MD5sum: 65b995f068c557a431763ff83a34329e
-SHA1: f1e8a28b02a68b058245b415cfbd364acd5e3351
-SHA256: 13ad4e3f93fa6ed5708ec55775ac9c4450345275778ca7f132e6654a5ac9de9b
-Section: Tweaks
-Description: 屏蔽App Store更新提示(Block App Store Updates)!
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
-Name: Hello App
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
-
-Package: com.0xkuj.safarix
-Version: 1.9.2
-Architecture: iphoneos-arm64
-Maintainer: 0xkuj
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: ./debs/SafariX-New(rootless)_1.9.2.deb
-Size: 287248
-MD5sum: e2de44eaa73bbabd48e63fa53852e583
-SHA1: 370f353affca373d948e35e57ec1bb7e0c64387d
-SHA256: eab727d5676115c8680d72390eeb2d07ba2b76d2c5ce45cef4fa8fb841fb03e8
-Section: 嗨-工具
-Description: Safari 浏览器多功能增强插件；源内有汉化包；SafariX后期加了验证，不能改包名。
-Author: 0xkuj
-Name: SafariX-New(rootless)
-
 Package: com.25mao.leftpan.rootless
 Version: 1.0-6
 Architecture: iphoneos-arm64
@@ -115,38 +46,6 @@ Priority: optional
 Description: 左滑返回上一页面
 Author: Mao
 Name: 左滑返回-Rootless
-
-Package: com.34306.replaced
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Little 34306
-Installed-Size: 152
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: ./debs/replaced.1.0.deb
-Size: 3200
-MD5sum: 53d10a41d59dd19c3fb34ead0406f99b
-SHA1: 64ad0d9c1d8ad86cec48bc2160daa5778a41c3df
-SHA256: dd95327ac294315ef12adde23b5ac10eec77a4c1cadacb180eb3b77e874a3fbb
-Section: Tweaks
-Description: Remove the notification that the P
-Author: 34306
-Name: replaced
-
-Package: com.be-huge.wechat-push-msg-page
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: be-huge
-Installed-Size: 232
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.wechat-push-msg-page_0.0.1_iphoneos-arm64.deb
-Size: 22994
-MD5sum: f0b1605b488c3c3564da480d5474a05c
-SHA1: baa2f741a68f96992701e7bc9ae5f3f5075de51d
-SHA256: dd9a26a738a01c12ca5a62ea60c5f5b83254e2ea7632255cfc1746655cf5c5a2
-Section: Tweaks
-Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。
-Author: be-huge
-Name: WechatPushMsgPage-rootless
 
 Package: com.creaturecoding.libcspreferences
 Version: 1.5.8
@@ -191,44 +90,6 @@ Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: Shuffle
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
-
-Package: com.cydiageek.hapticsleep
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 515
-Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
-Filename: ./debs/HapticSleep.1.0.2.deb
-Size: 55112
-MD5sum: 46dc8fdbc32ceab1fe36a7019a4787ee
-SHA1: 66d69aaa066f6b1bd5e0d5282af75adc99f52a98
-SHA256: f6d2e84be9e56899e0e6ecc5d6108d0ed74d3e90eaaae1949f0af43a67069ec2
-Section: Tweaks
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hapticsleepDp
-Description: Haptics When Locking the Device!
-Tag: purpose::extension
-Author: CydiaGeek <lucaluca86@aol.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hapticsleepDp
-Dev: lucaluca86
-Icon: file:///var/jb/Library/PreferenceBundles/HapticSleep.bundle/HapticSleep@2x.png
-Name: HapticSleep
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.dao.safarix.cn
-Version: 1.9.2
-Architecture: iphoneos-arm
-Maintainer: 妖刀
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/SafariX汉化.deb
-Size: 8600
-MD5sum: 27530f423765a80ae0678c4fee2d2a8a
-SHA1: 2fa4ebc48c645d1d4b52831666305351572e9d0b
-SHA256: ad94efc72ce761e408c55c78a5f4210d4b8034d36bb3dc66e37eb50dd45d5ea9
-Section: 嗨-汉化
-Description: SafariX 简体中文包。
-Author: 妖刀
-Name: SafariX 简体中文包
 
 Package: com.dao.storeswitchaccounts
 Version: 1.1-4
@@ -298,21 +159,6 @@ Section: Tweaks
 Author: Donato Fiore
 Name: 计算器添加历史按钮
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.fiore.calculatorhistory/depiction.json
-
-Package: com.hk.onesettings.cn.rl
-Version: 2.1.1
-Architecture: iphoneos-arm64
-Maintainer: 妖刀
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/OneSettings简体中文包rootless.2.1.1.deb
-Size: 12112
-MD5sum: 2d64a673ffd6c2a9b3bc0869858dc050
-SHA1: 441ff9781c5c1bc79781768e21ea2b9dacdf083e
-SHA256: dbb8637f49bd86ae2f201dde7910eae7a474498959da549e5e267a431b24c0b6
-Section: 嗨-汉化
-Description: OneSettings 简体中文包(rootless)。
-Author: 妖刀
-Name: OneSettings 简体中文包(rootless)
 
 Package: com.hk.shuffle.cn.rl
 Version: 1.6.2-1
@@ -411,22 +257,6 @@ Homepage: https://tigisoftware.com/cydia/
 Description: Filza unlock full functionality, the main program please install in the official source
 Author: Netskao
 Name: Filza Crack
-
-Package: com.newwares.badgesync
-Version: 1.2.2
-Architecture: iphoneos-arm64
-Maintainer: newwares
-Installed-Size: 384
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), ws.hbang.common, preferenceloader, com.opa334.altlist
-Filename: ./debs/BadgeSync.1.2.2.deb
-Size: 37928
-MD5sum: c54e907279e62b49c1d7d43122dee18a
-SHA1: cb35a764d8a111a0fc15aac5efa913bf8cbbc100
-SHA256: a4b2200b76860b06edf394d5456aecf3396adc00784f76b502dc7d82aef0d90d
-Section: Tweaks
-Description: Syncs icon badge values when notifications are dismissed from the notification centre.
-Author: newwares
-Name: BadgeSync
 
 Package: com.opa334.altlist
 Version: 1.0.11
@@ -620,22 +450,6 @@ Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
 
-Package: com.susu.photos
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 712
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debs/apt.2.9.4-1.deb
-Size: 1975376
-MD5sum: 58485fac9bfc62b03b7ce7a965db1029
-SHA1: 2283298003aed8cdc5518087296cd9bb5a5d6568
-SHA256: 80ab5d6b13917be948325d64b66a3cccc0203a2630456f55a44e94e6a7d4735b
-Section: 系统
-Author: 苏苏
-Icon: https://www.susubaby.top/images/photos.png
-Name: 相册增强
-
 Package: com.tigisoftware.filza64bit
 Version: 4.0.1-4
 Architecture: iphoneos-arm64
@@ -653,79 +467,23 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This v
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
-Package: com.udevs.dockx
-Version: 2.6.2
-Architecture: iphoneos-arm64
-Maintainer: udevs
-Installed-Size: 2068
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Conflicts: com.restiveconch.actionbar
-Filename: ./debs/DockX.2.6.2.deb
-Size: 420908
-MD5sum: 0f4740afa6f7edf74c65ae3ce8065f6d
-SHA1: b3e291ce33e4e09676799d0c0efd36f634e4072f
-SHA256: 24e3ace09219f9159868dfab8c630d1cb373866b50d7450b078985334c834742
-Section: Tweaks
-Description: Pasteboard shortcuts on your keyboard dock!
-Author: udevs
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
-Name: DockX
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
-
 Package: com.xybp888.noapplemobilerepair
-Version: 0.0.1-88
+Version: 0.0.1-103
 Architecture: iphoneos-arm64
 Maintainer: xybp888
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/NoAppleMobileRepair.0.0.1-88.deb
-Size: 10548
-MD5sum: 50dbc8af0ba419dec639dbe706637865
-SHA1: de4f933316d5bf56238a065888896e51cab217a6
-SHA256: 0f6679e6fe591ab9c17e1c0c601826a47ae7c5a511a61771ec19ad03e28d10cf
+Filename: ./debs/NoAppleMobileRepair.0.0.1-103.deb
+Size: 10552
+MD5sum: 0aa01de6b22f396ec695bc99c8d52e20
+SHA1: 6e0cc3a3020fdd3d3a2d49263acdc9723cab12e5
+SHA256: 4efaad55e49b6786ff10d86f57bdbce13692b63840a34b5d087fefb4d238e9d2
 Section: Tweaks
 Description: No Apple MobileRepair
 Author: xybp888
-Depiction: https://apt.htv123.com/view/158
+Depiction: https://apt.htv123.com/view/159
 Name: No Apple MobileRepair
-Sileodepiction: https://apt.htv123.com/sileo/158
-
-Package: com.zqbb.savephotos
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 72
-Depends: mobilesubstrate
-Filename: ./debs/HelloSnapper.1.1.deb
-Size: 4516
-MD5sum: d753ad98f776f4e3b9aff124fe161c0f
-SHA1: 4590d8db35e0bb18b19ef91326a2d3838ced6281
-SHA256: 50fe4a9fb8aaed4c331ca821520c5315bcf6859a03c6868a97014e9310ab2941
-Section: Tweaks
-Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
-Author: zqbb
-Name: Hello Snapper
-Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
-
-Package: dev.theos.orion14
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: Theos Team <support@theos.dev>
-Installed-Size: 514
-Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
-Provides: dev.theos.orion (= 1.0.2)
-Filename: ./debs/OrionRuntimeiOS14–17.1.0.2.deb
-Size: 93468
-MD5sum: 029756c74cce80c821a51af385caf166
-SHA1: d2669095f0c195cfd56c68a149e8866427fe8c86
-SHA256: c18b346407156cff33f71c30201e666492a9feb16a989a92ff622a5d317c21d8
-Section: System
-Description: Runtime for tweaks built using Orion and Swift
-Tag: role::developer, compatible_min::ios14.0
-Author: Theos Team <support@theos.dev>
-Depiction: https://chariz.com/get/orion-runtime14
-Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
-Name: Orion Runtime (iOS 14 – 17)
+Sileodepiction: https://apt.htv123.com/sileo/159
 
 Package: gzip
 Version: 1.13
@@ -922,21 +680,4 @@ Priority: important
 Multi-Arch: foreign
 Description: standard Windows compression tool
 Name: zip
-
-Package: zp.cocoatop64.unject
-Version: 3.1.1
-Architecture: iphoneos-arm64
-Maintainer: zp, SXX, Domo
-Installed-Size: 504
-Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, zp.cocoatop64, zp.cocoatop64.inject
-Filename: ./debs/CocoaTop64.zp.3.1.1.deb
-Size: 138992
-MD5sum: e1436519e9944b74d4179196783e03e3
-SHA1: e07af39a845dec9107655a76e77376a6065848bd
-SHA256: ec8dba5a5dcb7c2332ac285e20718abe11402930c28b30572411d793193fa805
-Section: Utilities
-Description: Process Viewer for iOS GUI,适配rootless并增加一些小功能.
-Author: Domo, SXX , zp
-Name: CocoaTop64.zp
-Sileodepiction: https://rootless.002599.xyz/web/zp.cocoatop64.unject
 
